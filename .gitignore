@@ -1,0 +1,6 @@
+bin/
+dist/
+*.log
+*.bundle
+*.test
+.DS_Store

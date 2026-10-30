@@ -1,0 +1,10 @@
+name: Tests
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  shell:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: bash scripts/test.sh
