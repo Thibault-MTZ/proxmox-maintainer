@@ -1,5 +1,17 @@
 # Proxmox Maintainer · bêta
 
+**Branche `tui-minimal` — passage à Go.** Le prototype Shell reste dans [main](https://github.com/Thibault-MTZ/proxmox-maintainer). Cette bêta ajoute une interface pour les mises à jour APT des CT et VM Linux (SSH invité explicite), sans prétendre gérer toute l’infrastructure.
+
+```bash
+go build -o bin/proxmox-maint ./cmd/proxmox-maint
+./bin/proxmox-maint --demo
+```
+
+![Inventaire fictif](docs/inventory.png)
+![Plan CT/VM fictif](docs/updates.png)
+
+[Utilisation du TUI et limites](docs/TUI.md) · [Feuille de route du 30 octobre 2026](docs/ROADMAP.md)
+
 Petit projet perso pour m’exercer sur mon homelab et simplifier les mises à jour de mes conteneurs Proxmox.
 
 Je partage une première version **Shell**, volontairement simple. Je travaille aussi sur une interface terminal en **Go**, avec une [version minimale](https://github.com/Thibault-MTZ/proxmox-maintainer/tree/tui-minimal) et une [branche avancée expérimentale](https://github.com/Thibault-MTZ/proxmox-maintainer/tree/advanced-tui).
