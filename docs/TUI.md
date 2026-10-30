@@ -1,5 +1,7 @@
 # TUI minimal — bêta
 
+Distribution ciblée : **Linux / Proxmox VE uniquement**. Aucun exécutable Windows n’est publié.
+
 Cette branche porte le prototype personnel vers **Go**, pour distribuer ensuite un binaire autonome. Interface Bubble Tea/Bubbles, styles Lip Gloss, commandes Cobra, configuration JSON. Pas de dépendance Python ni de serveur web.
 
 ```bash
