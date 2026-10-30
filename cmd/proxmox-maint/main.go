@@ -13,7 +13,7 @@ import (
 )
 
 var version = "0.2.0-beta.1-dev"
-var defaultAdvanced = "false"
+var defaultAdvanced = "true"
 
 func main() {
 	if err := root().Execute(); err != nil {

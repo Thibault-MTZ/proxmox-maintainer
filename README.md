@@ -1,6 +1,6 @@
 # Proxmox Maintainer · bêta
 
-**Branche `tui-minimal` — passage à Go.** Le prototype Shell reste dans [main](https://github.com/Thibault-MTZ/proxmox-maintainer). Cette bêta ajoute une interface pour les mises à jour APT des CT et VM Linux (SSH invité explicite), sans prétendre gérer toute l’infrastructure.
+**Branche `advanced-tui` — chantier expérimental.** Le prototype Shell reste dans [main](https://github.com/Thibault-MTZ/proxmox-maintainer) et le parcours réduit dans [tui-minimal](https://github.com/Thibault-MTZ/proxmox-maintainer/tree/tui-minimal). Cette branche active en plus la découverte des applications, services, ports et images Docker, pour explorer la suite. Elle n’applique pas de mises à jour d’images ou de migrations applicatives.
 
 ```bash
 go build -o bin/proxmox-maint ./cmd/proxmox-maint
